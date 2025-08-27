@@ -1,0 +1,8 @@
+streamlit
+openai-whisper
+sentence-transformers
+supabase
+psycopg2-binary
+requests
+python-dotenv
+torch
