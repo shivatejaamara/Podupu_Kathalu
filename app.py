@@ -2,32 +2,6 @@ import streamlit as st
 import random
 st.set_page_config(page_title="Podupu Kathalu Platform", layout="wide")
 
-# --- Dark/Light Mode Toggle ---
-if "theme" not in st.session_state:
-    st.session_state["theme"] = "light"
-
-mode = st.radio("🌗 Choose Theme:", ["Light", "Dark"], index=0 if st.session_state["theme"] == "light" else 1)
-
-if mode == "Dark":
-    st.session_state["theme"] = "dark"
-    st.markdown(
-        """
-        <style>
-        body { background-color: #0e1117; color: #ffffff; }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-else:
-    st.session_state["theme"] = "light"
-    st.markdown(
-        """
-        <style>
-        body { background-color: #ffffff; color: #000000; }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
 
 # Custom CSS
 st.markdown(
