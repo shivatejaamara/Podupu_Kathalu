@@ -1,4 +1,4 @@
-Podupu Kathalu 🎭
+##Podupu Kathalu 🎭##
 
 A Streamlit-based web app for interactive Telugu riddles (పొడుపు కథలు), powered by Supabase for data storage and management.
 
@@ -83,3 +83,4 @@ Add more riddles to Supabase via the app or directly in Table Editor.
 Deploy your app to Streamlit Cloud or Heroku.
 
 Share with friends! 🎉
+
