@@ -1,3 +1,9 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+print("DEBUG URL:", os.getenv("SUPABASE_URL"))
 import streamlit as st
 from src.db import supabase
 
